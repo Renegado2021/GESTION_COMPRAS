@@ -2,8 +2,8 @@
 // Configuración de la conexión a la base de datos
 $servername = "localhost";
 $username = "root";
-$password = "root";
-$dbname = "bd_ihci2";
+$password = " ";
+$dbname = "gestion_compras2";
 
 // Crear la conexión
 $conexion = mysqli_connect($servername, $username, $password, $dbname);

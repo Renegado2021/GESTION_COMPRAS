@@ -3,7 +3,7 @@ $host = 'localhost';
 $dbname = 'gestion_compras2';
 $username = 'root';
 $password = '';
-$port = 3307; // Cambia el puerto a 3307
+$port = 3306; // Cambia el puerto a 3307
 
 try {
     $conn = new PDO("mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4", $username, $password);
