@@ -1,0 +1,191 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.content {
+    margin-left: 15%;
+    transition: margin-left 0.5s;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+/* Estilo para la barra de búsqueda y botones */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinear al lado derecho */
+    margin-top: 20px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para el botón de búsqueda */
+.search-bar button[type="submit"] {
+    background-color: #007bff; /* Color azul para "Buscar" */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre los botones */
+}
+
+/* Estilo para el botón "Agregar" */
+.search-bar a.print-button {
+    background-color: #28a745; /* Color verde para "Agregar" */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón "PDF" */
+.search-bar a.pdf-button {
+    background-color: #ff5722; /* Color naranja para "PDF" */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón "Descargar" */
+.search-bar button.fa-download {
+    background-color: #ffc107; /* Color amarillo para "Descargar" */
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones al pasar el mouse */
+.search-bar button:hover,
+.search-bar a:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+
+
+
+/* Estilos para los botones "Agregar", "PDF" y "Descargar" */
+.print-button,
+.pdf-button,
+download-button {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-button:hover,
+.pdf-button:hover,
+download-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla */
+table {
+    margin-top: 20px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-right: 5px; /* Alinea la tabla a la izquierda con un margen de 10px */
+}
+
+
+table th,
+table td {
+    padding: 20px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los botones "Editar" y "Eliminar" */
+.styled-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-button.edit-button {
+    background-color: #28a745; /* Color verde para "Editar" */
+}
+
+.styled-button.delete-button {
+    background-color: #dc3545; /* Color rojo para "Eliminar" */
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la numeración de página */
+.pagination {
+    float: left;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces de paginación */
+.pagination-links {
+    float: right;
+    font-size: 16px;
+}
+
+.pagination-links a,
+.pagination-links span {
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: none;
+    color: darkblue;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination-links a:hover {
+    background-color: #ddd;
+}
+
+.pagination-links span.current {
+    font-weight: bold;
+}
+
+.pagination-links span.ellipsis {
+    padding: 0 5px;
+}
+
+
