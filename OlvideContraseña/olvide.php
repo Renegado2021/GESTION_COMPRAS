@@ -109,7 +109,8 @@ input[type="button"]:hover {
 <body>
 <div id="recoveryContainer">
     <h2>Recuperar Contraseña</h2>
-    <form method="POST" action="pregunta.php">
+    <form method="POST" action="email.php" >
+    
     <label for="nombre_usuario">Nombre de Usuario:</label>
     <input type="text" name="nombre_usuario" id="nombre_usuario" required><br><br>
     
